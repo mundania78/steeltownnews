@@ -111,6 +111,9 @@ footer .inner {
 .site-content {
   background-color: white;
 }
+.site-content .inner {
+  max-width: 767px;
+}
 
 /**
  * TYPOGRAPHY
@@ -249,9 +252,11 @@ img {
  */
 .views-row-odd {
   background-color: #FFFFFF;
+  padding: 12px;
 }
 .views-row-even {
   background-color: #F0F0F0;
+  padding: 12px;
 }
 .views-row-even p.callout {
   background-color: #E0E0E0;
