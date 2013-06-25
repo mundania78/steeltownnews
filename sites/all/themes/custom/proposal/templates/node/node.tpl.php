@@ -82,7 +82,7 @@
 <div id="<?php print check_selector($title); ?>" class="node <?php print $classes; ?>">
   <div class="inner">
     <?php print render($title_prefix); ?>
-    <?php print $title; ?>
+    <h1><?php print $title; ?></h1>
     <?php print render($title_suffix); ?>
 
     <?php print render($content); ?>
