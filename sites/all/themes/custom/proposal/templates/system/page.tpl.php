@@ -239,7 +239,7 @@
       <div class="row-fluid">
         <div class="span12">
           <p>
-            <strong>Copyright <?php print format_date(date('U'), 'Y'); ?> <?php print $site_name; ?></strong> All rights reserved.<br />
+            <strong>Copyright 2013 <?php print $site_name; ?></strong> All rights reserved.<br />
         </div>
       </div>
     </div>
