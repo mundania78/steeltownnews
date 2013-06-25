@@ -246,6 +246,30 @@ img {
   padding-top: 36px;
 }
 
+.primary .menu {
+  
+}
+
+.primary .menu li {
+  display: inline;
+  list-style: none;
+}
+
+.primary .menu li a,
+.primary .menu li a:link,
+.primary .menu li a:active,
+.primary .menu li a:visited {
+  color: rgb(242,242,242);
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.primary .menu li a:hover {
+  text-decoration: underline;
+}
+
 
 /**
  * Custom View Section/Row Colors
