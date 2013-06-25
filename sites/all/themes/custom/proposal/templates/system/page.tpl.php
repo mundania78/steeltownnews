@@ -69,7 +69,6 @@
 ?>
 
 
-<?php if ($is_front): ?>
   <!-- Begin: Header -->
   <header class="site-header hero">
     <div class="container-fluid">
@@ -114,7 +113,6 @@
   </div>
   </header>
   <!-- End: Header -->
-<?php endif; ?>
 
   <!-- Begin: Wrapper -->
   <div class="site-content">
