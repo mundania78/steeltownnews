@@ -48,7 +48,7 @@ footer {
   }
   .hero .outer {
     background: #00B3CB;
-    margin: 46px 0;  
+    margin: 0;  
   }
   .hero .inner {
     max-width: 767px;
@@ -247,7 +247,7 @@ img {
 }
 
 .primary .menu {
-  
+  margin: 10px 0;
 }
 
 .primary .menu li {
