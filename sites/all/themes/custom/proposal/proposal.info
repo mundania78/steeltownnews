@@ -1,0 +1,85 @@
+; The human readable name can now be set independently from the
+; internal machine readable name. This imposes fewer restrictions
+; on the allowed characters. See http://drupal.org/node/171205#name
+name = Proposal
+
+; A short description of the theme. This description is displayed
+; on the theme select page at Administer > Site building > themes
+description = "The Drupal theme for Viable Industries, L.L.C. proposal web sites."
+
+; The version string will automatically be added by drupal.org
+; when a release is created and a tarball packaged. So you may
+; omit this value for contributed themes. However, if your theme
+; is not being hosted on the drupal.org infrastructure, you can
+; give your theme whatever version string makes sense.
+version = 7.x-1.0
+
+; From 6.x onward, all .info files for modules and themes must
+; indicate what major version of Drupal core they are compatible
+; with. The value set here is compared with the DRUPAL_CORE_COMPATIBILITY
+; constant. If it does not match, the theme will be disabled.
+core = 7.x
+
+; The theme engine, which is used by the theme. If none is provided,
+; the theme is assumed to be stand alone, i.e., implemented with a
+; .theme file. Most themes should use phptemplate as the default engine.
+engine = phptemplate
+
+; The block regions available to the theme are defined by specifying
+; the key of regions followed by the internal machine readable name in
+; square brackets and the human readable name as the value, e.g.,
+; regions[theRegion] = The region name.
+regions[header_above] = Header (Above)
+regions[header_top] = Header (Top)
+regions[header] = Header (Main)
+regions[header_bottom] = Header (Bottom)
+regions[header_below] = Header (Below)
+regions[navigation_primary] = Navigation (Primary)
+regions[navigation_secondary] = Navigation (Secondary)
+regions[header_bottom] = Header (Bottom)
+;regions[sidebar_first_top] = Sidebar First (Top)
+;regions[sidebar_first] = Sidebar First (Main)
+;regions[sidebar_first_bottom] = Sidebar First (Bottom)
+regions[help] = Help
+regions[content_above] = Content (Above)
+regions[content_top] = Content (Top)
+regions[content] = Content (Main)
+regions[content_bottom] = Content (Bottom)
+regions[content_below] = Content (Below)
+regions[sidebar_last_top] = Sidebar Last (Top)
+regions[sidebar_last] = Sidebar Last (Main)
+regions[sidebar_last_bottom] = Sidebar Last (Bottom)
+regions[footer_above] = Footer (Above)
+regions[footer_top] = Footer (Top)
+regions[footer] = Footer (Main)
+regions[footer_bottom] = Footer (Bottom)
+regions[footer_below] = Footer (Below)
+
+; Various page elements output by the theme can be toggled on
+; and off on the themes configuration page. The features keys
+; control which of these check boxes display on the themes
+; configuration page. This is useful for suppressing check boxes
+; for elements not defined or used by a theme. To suppress a 
+; check box, omit the entry for it. However, if none are defined,
+; all the check boxes will display due to the assumed defaults.
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+features[] = search
+
+; Traditionally, themes default to using style.css automatically
+; and could add additional stylesheets by calling drupal_add_css()
+; in their template.php ; file. Starting in Drupal 6, themes can also
+; add style sheets through their .info file.
+stylesheets[screen, projection][] = css/bootstrap.min.css
+stylesheets[screen, projection][] = css/bootstrap-responsive.min.css
+stylesheets[screen, projection][] = css/theme.css
+stylesheets[print][] = css/print.css
+
+; Traditionally, themes could add Javascripts by calling drupal_add_js()
+; in their template.php file. Starting in 6.x, if a file named script.js
+; exists in the theme directory then it is automatically included. 
+; However, in Drupal 7, this behavior has been changed again so that
+; script.js is only included if it has been specified in the .info file:
+scripts[] = js/theme.js

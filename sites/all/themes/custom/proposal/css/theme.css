@@ -1,0 +1,303 @@
+/**
+ * Brand Color Library
+ */
+.brand-red {
+  color: #DA1F26;
+}
+.brand-blue {
+  color: #00B3CB;
+}
+.brand-green {
+  color: #8EC73F;
+}
+
+#00B3CB/**
+ * GLOBAL
+ */
+.element-invisible {
+  display: none;
+}
+
+body {
+  background-color: #F0F0F0;
+  color: #2F2F2F;
+  font-family: "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 125%;
+}
+
+/**
+ * LAYOUT
+ */
+header {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+footer {
+  background-color: #FFFFFF;
+  border-top: 1px solid #E0E0E0;
+  padding: 36px 0;
+}
+
+.hero {
+  background-color: transparent;
+  background-image: url('../img/hero-background.png');
+  background-repeat: repeat;
+}
+  .hero .container-fluid {
+    padding: 0;
+  }
+  .hero .outer {
+    background: #00B3CB;
+    margin: 46px 0;  
+  }
+  .hero .inner {
+    max-width: 767px;
+  }
+  .hero h1 {
+    font-weight: 100;
+  }
+  .hero h1,
+  .hero h2 {
+    color: #F0F0F0;
+  }
+  .hero h2 {
+    font-size: 1.0em;
+    margin-top: 46px;
+  }
+
+#how-do-we-get-in-contact-with-you- h5 {
+  font-size: 1.4em;
+}
+
+.media_embed {
+	height: 0;
+  margin-bottom: 24px;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	position: relative;
+  overflow: hidden;
+  width: 100% !important;
+}
+.media_embed iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.headshots {
+  margin-top: 36px;
+}
+  .headshots div {
+    text-align: center;
+  }
+
+.node {
+  padding: 36px 20px;
+}
+
+.inner {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.node .inner,
+footer .inner {
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.site-content {
+  background-color: white;
+}
+
+/**
+ * TYPOGRAPHY
+ */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.0em;
+  margin-bottom: 0.6em;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+h5, p, li {
+  font-size: 1.0em;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 1.0em;
+}
+
+footer p {
+  font-size: 0.6em;
+  font-weight: 500;
+}
+
+p.callout {
+  background-color: #F0F0F0;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 100;
+  margin: 36px 0;
+  padding: 36px 0;
+}
+  p.callout span {
+    font-weight: 600;
+  }
+  p.callout span.total {
+    color: #00B3CB;
+  }
+  
+  #cms p.callout {
+    background-color: #00B3CB;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 56px 12px;
+  }
+
+a, a:link, a:visited {
+  color: #008E99;
+  text-decoration: underline;
+}
+
+a:active, a:focus {
+  color: #B22720;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00B3CB;
+  text-decoration: none;
+}
+
+a.button, a.button:link, a.button:visited {
+  background-color: #00B3CB;
+  border-radius: 2px;
+  border-bottom: 2px solid #008E99;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 8px 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.button:active, a.button:focus {
+  background-color: #008E99;
+  text-decoration: none;
+}
+
+a.button:hover {
+  background-color: #008E99;
+  text-decoration: none;
+}
+
+ul, ol {
+}
+
+li {
+  margin-left: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+blockquote {
+}
+
+img {
+}
+
+/**
+ * Extra Typographic Treatments
+ */
+.rule-above {
+  border-top: 1px solid #E0E0E0;
+  margin-bottom: 24px;
+  margin-top: 36px;
+  padding-top: 36px;
+}
+
+
+/**
+ * Custom View Section/Row Colors
+ */
+.views-row-odd {
+  background-color: #FFFFFF;
+}
+.views-row-even {
+  background-color: #F0F0F0;
+}
+.views-row-even p.callout {
+  background-color: #E0E0E0;
+}
+
+
+/**
+ * Administration Only
+ */
+#user-login {
+  background-color: #F0F0F0;
+  margin: 100px auto;
+  padding: 36px;
+  max-width: 360px;
+}
+  #user-login input.form-text {
+    width: 96%;
+  }
+  #user-login .form-actions {
+    background-color: transparent;
+    margin: 12px 0 0;
+    padding: 12px 0 0;
+  }
+  #user-login .form-actions input {
+    float: right;
+  }
+  #user-login .description {
+    display: none;
+    font-size: 0.7em;
+  }
+
+
+/**
+ * Media Queries, 767px wide and lower
+ */
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  .inner {
+    padding: 0;
+  }
+  .hero .inner {
+    padding: 0 22px;
+  }
+  footer {
+    padding: 22px;
+  }
+}
