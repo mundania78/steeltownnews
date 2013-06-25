@@ -76,11 +76,13 @@
       <div class="outer">
     <div class="inner">
 
-      <div class="row-fluid">
+<?php /**      <!-- <div class="row-fluid">
         <div class="span12">
           <!-- Place your static HTML here for a header -->
         </div>
-      </div>
+      </div> -->
+  */
+  ?>
 
       <?php if ($page['header_top']) : ?>
       <div class="row-fluid">
