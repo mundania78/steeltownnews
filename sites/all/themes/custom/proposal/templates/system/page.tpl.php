@@ -78,8 +78,7 @@
 
       <div class="row-fluid">
         <div class="span12">
-          <h2>A proposal from Viable Industries, L.L.C.</h2>
-          <h1>We created a website to introduce you to our process, address the questions you've raised, and show you what we're capable of.</h1>
+          <!-- Place your static HTML here for a header -->
         </div>
       </div>
 
@@ -240,11 +239,7 @@
       <div class="row-fluid">
         <div class="span12">
           <p>
-            <strong><?php print $site_name; ?> Proposal</strong><br />
-            Copyright <?php print format_date(date('U'), 'Y'); ?> Viable Industries, L.L.C., All rights reserved.
-          </p>
-          <p>We are located at 6101 Penn Ave, Suite 201 in Pittburgh, Pennsylvania. Our offices are on the second floor of the Liberty Bank Building in The Beauty Shoppe's innovative working space. You can <a href="http://www.viable.io/" target="_blank">visit our website at www.viable.io</a></p>
-          <p>The text, images, code, ideas, concepts, and other intellectual property presented on this page are considered proprietary information and the sole property of Viable Industries, L.L.C., except where otherwise noted, and should not be shared with other organizations, companies, or individuals.</p>
+            <strong>Copyright <?php print format_date(date('U'), 'Y'); ?> <?php print $site_name; ?></strong> All rights reserved.<br />
         </div>
       </div>
     </div>
